@@ -30,7 +30,7 @@ print("""
                                         +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                                      | You install this Tool so you have a namp tool and Tor script |
                                              
-                                                       By : [MarocBlackShinigami]""")
+                                                       By : [MoroccoBlackShinigami]""")
 input("{-1} | IPDM ...")
 f = "|"
 for x in range(100+1):
