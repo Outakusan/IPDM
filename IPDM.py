@@ -5,6 +5,8 @@ os.system("pip install socket")
 os.system("apt-get install python")
 os.system("apt-get install python3")
 os.system("apt-get install nmap")
+os.system("apt-get install tor")
+os.system("apt-get install nano")
 os.system("clear")
 print("""
                              +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -16,7 +18,7 @@ print("""
                              +     100101010         011101110        010100      +  Year      : ???                 +
                              +     100100001         010101110       010101       +  For       : Anyone              +
                              +     100101011         001110010010100101011        + ++++++++++++++++++++++++++++++++ +
-                             +     101001001         1111001111001010110          +  Tip:                            +
+                             +     101001001         1111001111001010110          +  Notice:                         +
                              +     101001010         101010101|                   +   This Tool For Install basic    +
                              +  0001011010101101  0100101010100111                +   Command of Linux and give you  +
                              +  0101100011100101  0101010010100110                +   IP address of Anywebsite and   +
@@ -51,12 +53,12 @@ if started == "1" :
  ip=socket.gethostbyname(io)
  print("""
              [info this web ]
-             =======================================================
-             =  Your Url                ==     Ip                  =
-             =======================================================
-             =   """,io,"""             == """,ip,"""              =
-             =                          ==                         =
-             =======================================================
+             ============================================================
+             =  Your Url                ==     Ip                       =
+             ============================================================
+             =   """,io,"""                == """,ip,"""                =
+             =                             ==                           =
+             ============================================================
              Table Info of:""",io,"""""")
 if started == "3":
  input("You Want Install Some Tool of hacking...")
