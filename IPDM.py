@@ -26,9 +26,9 @@ print("""
                              +          Sacn of Drak Mode                         +   Tool .                         +
                              ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++     ++++++++
                                         +++++++++++++++++++++++++++++++++++++++ +++++++++++++++++
-                                        + 1 - IP Address Of website                             +
-                                        + 2 - Maker File .Sh for Install basic Command Linux.   +
-                                        + 3 - Install some tool by IP Drak Mode                 +              
+                                        + 1 - IP Address Of website .                           +
+                                        + 2 - Install basic Command Linux by IPDM tool .        +
+                                        + 3 - Install some tool by IP Drak Mode .               +              
                                         +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                                      | You install this Tool so you have a namp tool and Tor script |
                                              
@@ -40,7 +40,7 @@ for x in range(100+1):
 # here i want think user this Tool
 
 think = input("Do You Want Clear Terminal/console Y/N: ")
-if think == "Y" and "y":
+if think == "Y" or "y":
  os.system("clear")
  print("Your wlcome to IPDM Tool")
 else :
@@ -102,6 +102,8 @@ if started == "2":
  os.system("apt-get install chmod")
  os.system("apt-get install pip")
  os.system("apt-get install namp")
+ os.system("apt-get install pip")
+ os.system("clear")
 else:
   exit()
 exit()
